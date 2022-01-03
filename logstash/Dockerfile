@@ -1,1 +1,1 @@
-FROM logstash:7.14.2
+FROM logstash:7.0.0

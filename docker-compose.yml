@@ -6,7 +6,7 @@ services:
     container_name: elasticsearch
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro,z
-      - ./elasticsearch:/usr/share/elasticsearch/data:z
+      #- ./elasticsearch:/usr/share/elasticsearch/data:z
     environment:
       - ELASTIC_PASSWORD=elasticpassword
       - node.name=elasticsearch
